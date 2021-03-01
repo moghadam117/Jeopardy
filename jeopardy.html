@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <title>Jeopardy!</title>
+  </head>
+  <body>
+    <div class="text-center" class="jumbotron">
+      <h1 class="display-4">Jeopardy by Saman</h1>
+        <img src="./imgs/trivia.png" alt="">
+        <hr class="my-4">
+      
+        
+        <h1  id="category"></h1>
+
+        <p id="answer"></p>
+    
+        <div class="font-weight-bolder" id="qdiv"><p id="question"></p></div>
+    
+        <button class="btn btn-primary btn-lg" id="reveal">Reveal Question</button>
+        <button class="btn btn-primary btn-lg active" role="button" aria-pressed="true" id="next">Retrieve a new Question</button>
+    </div>
+   
+
+    <script type="text/javascript" src="jeopardy.js"></script>
+  </body>
+</html>
