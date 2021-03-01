@@ -25,9 +25,7 @@ fetch('http://jservice.io/api/random').then( (response) => response.json()).then
     a.innerHTML=data[0].question;
 
 })}
-function parseJeopardy (){
 
-}
 
 function reveal () {
     document.getElementById("qdiv").style.display='block';
